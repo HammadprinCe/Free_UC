@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3065EA"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#D82929"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:text=" SignIn "
+        android:textAlignment="center"
+
+        android:background="@drawable/corner"
+        android:textSize="40sp"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <EditText
+                android:id="@+id/editTextEmail2"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/email_24"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:layout_margin="5dp"
+                android:drawablePadding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+
+            <EditText
+                android:drawableLeft="@drawable/lock_24"
+                android:id="@+id/editTextPassword2"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+
+            <Button
+                android:id="@+id/btnsign2"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/corner"
+                android:textColor="#D82929"
+                android:text="Sign In" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/next"
+        android:textColor="#E41818"
+        android:text="next"
+        android:layout_marginLeft="300dp"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:background="@drawable/corner"
+        />
+
+
+
+</LinearLayout>
+
+
+
+
+
+

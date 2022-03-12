@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767199453895",
+    "project_id": "freeuc-93a26",
+    "storage_bucket": "freeuc-93a26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767199453895:android:69de55a7625fcdb06a54e2",
+        "android_client_info": {
+          "package_name": "com.example.free_uc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767199453895-20af9kpopcpmg0ejqs3ohm3piehodqj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEo6tBlvV5BVaqpfBO3xvz0WANdsxdq9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767199453895-20af9kpopcpmg0ejqs3ohm3piehodqj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

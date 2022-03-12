@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E41E1E"
+    tools:context=".MainActivity">
+
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/corner"
+        android:layout_marginTop="60dp"
+
+        android:fontFamily="@font/gloria_hallelujah"
+        android:text=" SignUp "
+        android:textAlignment="center"
+        android:textColor="#D82929"
+
+        android:textSize="30sp" />
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/email_24"
+                android:layout_margin="5dp"
+                android:drawablePadding="5dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+
+            <EditText
+                android:drawableLeft="@drawable/lock_24"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:id="@+id/editTextPassword"
+                android:drawablePadding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:padding="20dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+
+            <Button
+                android:id="@+id/btnsign"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#C61010"
+                android:layout_gravity="center"
+                android:fontFamily="@font/gloria_hallelujah"
+
+                android:background="@drawable/corner"
+                android:padding="10dp"
+                android:text="Crate account" />
+            <Button
+                android:id="@+id/btnAlready"
+                android:layout_margin="10dp"
+                android:textColor="#CC0D0D"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:padding="10dp"
+                android:text="Alrady have an account" />
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/wavenew"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
+
+
